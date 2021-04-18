@@ -1,0 +1,121 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather',serif;
+  line-height: 2;
+}
+/*Div bruges til at lave en box, som vi gerne vil ændre på*/
+/* margin, boarder, padding, width, hight*/
+div {
+
+
+
+}
+h1 {
+  font-size: 500%;
+  margin-top: 100px;
+  font-family: 'Sacramento', sans-serif;
+  color: #66BFBF;
+
+}
+p {
+  margin-bottom: 0px;
+
+
+
+}
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', cursive;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', cursive;
+}
+
+a {
+  color: #11999E;
+}
+hr {
+    border-style: dotted none none;
+    border-width: 15px;
+    border-color: grey;
+
+    width: 10%;
+    margin-top: 30px;
+}
+/***************************************CLASS SELECTORS************************************************/
+
+.top {
+  position:relative;
+  height: 100%;
+  padding-top: 40px;
+  top: 0px;
+  background-color: #e3fdfd;
+
+
+}
+.middle-container {
+
+
+}
+.bottom-container{
+  background-color: #71c9ce;
+  margin-top: 10px;
+}
+.pro {
+  text-decoration: underline;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom:300px;
+}
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 100px;
+}
+.owl {
+  height: 100px;
+  width: 100px;
+}
+.python {
+  height: 100px;
+  width: 100px;
+  float: right;
+  margin-left: 30px;
+}
+.science {
+  height: 100px;
+  width: 100px;
+  /* makes the image float left of the text*/
+  float: left;
+  margin-right: 30px;
+}
+.skill-row {
+  width: 50%;
+  text-align: left;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+
+}
+.btn {
+  border-radius: 8px;
+  background-color: #71c9ce;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  margin-bottom: 10px;
+
+}
+.footer-link {
+  font-size: 50%;
+}
+.footer-text {
+  color: white;
+
+}
